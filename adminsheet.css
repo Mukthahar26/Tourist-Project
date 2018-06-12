@@ -1,0 +1,126 @@
+﻿body
+{    
+    background:rgba(0,0,0,0.9);
+}
+
+.home
+{
+    height:40px;
+    width:90px;
+    font-family:Arial;
+    font-size:16px;
+    resize:none;
+    outline:none;
+    cursor:pointer;
+    margin-left:10px;
+    background:white;
+    border:none;
+}
+
+#menu
+{
+ width:830px;
+ margin-left:290px;
+ background:white;
+   
+}
+.a
+{
+    margin-right:20px;
+    padding-left:20px;
+    color:White;    
+}
+.aa
+{
+    height:60px;
+    line-height:60px;
+    background:red;
+    margin-bottom:20px;
+}
+
+td
+{
+    width:150px;
+}
+
+p
+{
+    font-family:Arial;
+    font-weight:800;
+    color:Gray;
+    margin-left:25px;
+}
+
+.drop
+{
+    height:30px;
+    width:200px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.name
+{
+    height:30px;
+    width:500px;
+    font-size:16px;
+}
+
+.tbl
+{
+    margin-top:50px;
+   background-color:White;
+   margin-left:20px;
+}
+.image
+{
+    border:2px solid silver;
+    cursor:pointer;
+}
+
+.desc
+{
+    resize:none;
+    height:200px;
+    width:500px;
+    font-size:16px;
+    border: 2px solid silver;
+}
+
+.text
+{
+    cursor:pointer;
+    height:40px;
+    width:100px;
+    font-size:16px;
+    border:0px;
+    color:White;
+    background:#FF00FF;
+    margin:10px 0px;
+}
+.text:hover
+{
+    border:2px solid silver;
+}
+
+.label
+{
+    font-size:25px;
+    color:Silver;
+    text-align:center;
+}
+
+.check
+{
+  white-space:nowrap;
+  line-height:12px;
+  width:12px;
+  height:20px;
+}
+
+
+.images
+{
+    width:500px;
+    height:200px;
+}

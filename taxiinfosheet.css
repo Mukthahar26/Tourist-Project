@@ -1,0 +1,41 @@
+﻿body {
+}
+
+.center
+{
+    margin-top:200px;
+    margin-left:500px;
+    position:relative;
+}
+
+
+
+.p
+{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:50px;
+}
+
+.span
+{
+    font-family:Arial;
+    line-height:40px;
+}
+
+.booking
+{
+    margin-left:50px;
+    width:200px;
+    height:30px;
+    cursor:pointer;
+    margin-bottom:30px;
+}
+
+.success
+{
+    color:Green;
+    font-style:italic;
+    font-size:16px;
+    margin-bottom:400px;
+}

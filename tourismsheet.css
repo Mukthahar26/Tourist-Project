@@ -1,0 +1,30 @@
+﻿body {
+}
+
+.main
+{
+    margin-left:100px;
+    margin-right:450px;
+}
+#im
+{
+    height:100px;
+    width:50px;
+}
+#div
+{
+    border-bottom:2px solid silver;
+}
+p
+{
+    font-size:16px;
+    margin-bottom:50px;
+    font-family:arial;
+    word-spacing:5px;
+    line-height:30px;
+    text-align:justify;
+}
+h1
+{
+    margin-top:50px;
+}

@@ -1,0 +1,81 @@
+﻿body 
+{
+    font-family:Arial;
+     background:url('buildings.jpg') no-repeat;
+     background-color:Silver;
+     background-size:cover;
+     
+}
+#menu ul
+{
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    color:Gray;
+}
+
+#menu ul li
+{
+    float:left;
+    width:150px;
+    height:40px;
+    line-height:20px;
+    text-align:center;
+    font:10px;
+    margin-right:0px;
+    color: Gray;
+    
+}
+#menu ul li a
+{
+    text-decoration:none;
+    color:White;
+    display:block;
+    color:Gray;
+}
+#menu ul li:hover
+{
+    background-color:Green;
+}
+#menu ul li:hover
+{
+    background-color:Green;
+    
+}
+#menu ul li ul li
+{
+    display:none;
+}
+#menu ul li:hover ul li
+{
+     display:block;
+}
+
+#reg ul
+{
+    
+    list-style:none;
+    float:right;
+    width:150px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    font:10px;
+    margin-right:5px;
+    padding:0px; 
+    margin:0px;
+    display:block;   
+}
+#reg ul li
+{
+   margin-right:2px;
+}
+#reg ul li a
+{
+    text-decoration:none;
+    color:White;
+}
+#reg ul li:hover
+{
+    background-color:Green;
+}

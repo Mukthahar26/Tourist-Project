@@ -1,0 +1,36 @@
+﻿
+body {
+}
+
+.polling
+{
+    width:650px;
+    margin-top:20px;
+    padding:50px 50px;
+    margin-left:330px;
+    margin-right:350px;
+}
+
+
+.p
+{
+    font-family:Arial;
+    font-size:25px;
+}
+
+.q
+{
+    word-wrap:break-word;
+    white-space:pre-wrap;
+    text-align:justify;   
+    font-family:Arial;
+    font-size:16px;
+    margin-bottom:80px;
+}
+
+span
+{
+    padding-top:-10px;
+    font-size:16px;
+    font-weight:bolder;
+}

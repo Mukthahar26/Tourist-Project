@@ -1,0 +1,56 @@
+﻿body {
+}
+
+.head
+{
+    padding-left:150px;
+    font-family:Arial;
+    font-size:50px;
+    font-weight:bolder;
+    padding-top:140px;
+    padding-bottom:100px;
+    background:#e6e6fa;
+    color:#4682b4;
+}
+
+.p1
+{
+    font-family:Arial;
+    font-size:18px;
+    margin-left:150px;
+    margin-top:30px;
+}
+
+.password
+{
+    height:30px;
+    width:300px;
+    margin-left:150px;
+    margin-top:10px;
+}
+
+.button
+{
+    height:30px;
+    width:150px;
+    margin-top:10px;
+    margin-left:150px;
+    margin-bottom:30px;
+    border-radius:25px;
+    border:none;
+    background:#4682b4;
+    color:White;
+    font-size:16px;
+    font-family:Arial;
+    cursor:pointer;
+}
+
+.border
+{
+    border:2px solid silver;
+    margin-left:100px;
+    width:900px;
+    margin-right:auto;
+    margin-bottom:50px;
+    margin-top:50px;
+}

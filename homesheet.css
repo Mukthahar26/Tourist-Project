@@ -1,0 +1,234 @@
+﻿
+body 
+{
+   overflow-x:hidden; 
+}
+
+*
+{
+    margin:0px;
+    padding:0px;
+}
+li
+{
+    font-family:Arial;
+}
+
+ul .homepic
+{
+    line-height:20px;
+    height:50px;
+    width:220px;
+    margin-bottom:-20px;
+}
+
+#home ul
+{
+    list-style:none;
+    border-top:2px solid white;
+    z-index:100;
+}
+
+
+
+#home ul li
+{
+    border-bottom:2px solid #BDC3c7;
+    background:#34495E;
+    width:224.8px;
+    line-height:50px;
+    text-align:center;
+    float: left;
+    position:relative;
+    cursor:pointer;
+    z-index:5;
+    
+}
+#home ul li a
+{
+    text-decoration:none;
+    color:White;
+}
+
+#home ul li a:hover
+{
+    border-bottom:2px solid silver;
+}
+#home ul ul
+{
+    display:none;
+    position:absolute;
+    z-index:98;
+}
+#home ul li:hover ul
+{
+    display:block;
+}
+#home ul ul li:hover>a
+{
+    border-bottom:2px solid silver;
+}
+#home ul ul ul li
+{
+    display:none;
+}
+#home ul ul li:hover ul li
+{
+    display:block;
+    margin-left:225px;
+    z-index:101;    
+}
+#home ul ul ul
+{
+    position:absolute;
+    top:-2px;
+}
+#home ul ul li
+{
+    border-right:2px solid yellow;
+    border-left:2px solid yellow;
+}
+
+#logout, #profile
+{
+    background-color:#34495E;
+    border:none;
+    color:White;
+    font-family:Arial;
+    font-size:16px;
+}
+#logout:hover, #profile:hover
+{
+    outline:none;
+    border-bottom:2px solid silver;
+    cursor:pointer;
+}
+
+
+
+/*----------------------------------- Footer --------------------------------------------*/
+
+
+.footer
+{
+    margin-top:20px;
+    background-color:Black; 
+    height:307px;
+}
+
+.support
+{
+    padding-top:30px;
+    padding-left:40px;
+    font-size:20px; 
+    color:Silver;
+    font-family:Arial;
+}
+
+.facebook
+{
+    cursor:pointer;
+    padding-top:20px;
+    margin-left:40px;
+    width:40px;
+    height:40px;
+}
+
+.copyright
+{
+    color:Silver;
+    font-size:20px;
+    font-family:Arial;
+    text-align:center;
+    margin-top:143px;
+    height:40px;
+    line-height:40px;
+    width:100%;
+    background:rgba(225,225,225,0.3);
+}
+
+.privacy
+{
+    font-family:Arial;
+    color:Silver;
+    font-size:20px;
+    line-height:20px;
+    text-decoration:none;
+    margin-left:160px;
+}
+
+.contact
+{
+    float:right;
+    color:Silver;
+    font-size:20px;
+    margin-right:10px;
+    margin-top:110px;
+    font-family:Arial;
+}
+
+
+
+
+
+/*------------------------------------- Search --------------------------------------------------*/
+
+
+
+.search
+{
+    -webkit-box-shadow: 0px 0px 40px 10px black;
+    height:50px;
+    width:700px;
+    position:absolute;
+    margin-top:150px;
+    margin-left:325px;
+    margin-right:325;
+    background-color:White;
+    border-radius:30px;
+}
+
+.bsearch
+{
+    width:30;
+    height:30px;
+}
+
+.tsearch
+{
+    border:none;
+    outline:none;
+    height:46px;
+    width:350px;
+    border-radius:30px;
+    padding-left:20px;
+    font-family:Arial;
+    font-size:18px;
+}
+
+.dropdown
+{
+    outline:none;
+    border:none;
+    border-left:1px solid black;
+    font-family:Arial;
+    font-size:18px;
+    width:220px;
+    height:45px;
+    cursor:pointer;
+}
+
+.bsearch
+{
+    outline:none;
+    border:none;
+    border-bottom-right-radius:30px;
+    border-top-right-radius:30px;
+    width:102px;
+    height:50px;
+    font-family:Arial;
+    font-size:20px;
+    color:White;
+    background:#4682b4;
+    cursor:pointer;
+}

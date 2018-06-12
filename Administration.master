@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Administration.master.cs" Inherits="Administration" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="adminsheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:Button ID="home" runat="server" Text="HOME" CssClass="home" OnClick="home_click" />
+ <div  id="menu"> 
+    <div class="aa">
+    
+    <a class="a" href="tourism.aspx" style="text-decoration:none">Tourism</a>
+    <a class="a" href="Companies.aspx" style="text-decoration:none">Companies</a>
+    <a class="a" href="Food.aspx" style="text-decoration:none">Food</a>
+    <a class="a" href="Health.aspx" style="text-decoration:none">Health</a>
+    <a class="a" href="hotels.aspx" style="text-decoration:none">Hotels</a>
+    <a class="a" href="Shopping.aspx" style="text-decoration:none">Shopping</a>
+    <a class="a" href="Bank.aspx" style="text-decoration:none">Bank</a>
+    <a class="a" href="Transport.aspx" style="text-decoration:none">Transport</a>
+    <a class="a" href="taxiinsert.aspx" style="text-decoration:none">Taxi</a>
+    </div>
+ <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+</div>
+    </div>
+    </form>
+
+    
+</body>
+</html>
