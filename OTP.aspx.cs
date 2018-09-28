@@ -58,7 +58,7 @@ public partial class OTP : System.Web.UI.Page
         {
             byte[] response = wb.UploadValues("https://api.textlocal.in/send/", new NameValueCollection()
                 {
-                  {"apikey" , "V7thr6z5mEI-vKd0T15vq0f3wdSQnkVPNVP7ZqFryV"},
+                  {"apikey" , "---------------------------------------"},
                   {"numbers" , destinationaddr},
                   {"message" , message1},
                   {"sender" , "TXTLCL"}
