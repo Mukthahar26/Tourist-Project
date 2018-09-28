@@ -55,14 +55,14 @@ public partial class Register : System.Web.UI.Page
                     {
                         MailMessage mm = new MailMessage();
                         mm.To.Add(mail.Text);
-                        mm.From = new MailAddress("citysmart269@gmail.com");
+                        mm.From = new MailAddress("xxxxxx@gmail.com");
                         mm.Subject = "Thank you";
                         mm.Body = "Thank you for your Registration";
                         mm.IsBodyHtml = true;
                         SmtpClient smtp = new SmtpClient();
                         smtp.Host = "smtp.gmail.com";
                         smtp.EnableSsl = true;
-                        NetworkCredential NetworkCred = new NetworkCredential("citysmart269@gmail.com", "8688028066");
+                        NetworkCredential NetworkCred = new NetworkCredential("E-Mail", "Password");
                         smtp.UseDefaultCredentials = true;
                         smtp.Credentials = NetworkCred;
                         smtp.Port = 587;
@@ -103,7 +103,7 @@ public partial class Register : System.Web.UI.Page
         {
             byte[] response = wb.UploadValues("https://api.textlocal.in/send/", new NameValueCollection()
                 {
-                  {"apikey" , "V7thr6z5mEI-vKd0T15vq0f3wdSQnkVPNVP7ZqFryV"},
+                  {"apikey" , "---------------------------------------"},
                   {"numbers" , destinationaddr},
                   {"message" , message1},
                   {"sender" , "TXTLCL"}
